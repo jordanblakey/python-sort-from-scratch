@@ -1,7 +1,7 @@
 # python-sort-from-scratch
 ## Recreating Python sorting algorithms to benchmark and understand them better.
 
-
+```python
 import random
 import time
 
@@ -101,3 +101,4 @@ start = time.time() * 1000
 sorted(random_items())
 end = time.time() * 1000
 print 'Sorted! (Milliseconds elapsed:', end - start, ')'
+```
